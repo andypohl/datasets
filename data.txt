@@ -4,3 +4,9 @@
   cols: 101
   description: statewide data from Wisconsin DHS
   type: table
+- path: wiscovid_counties
+  name: wiscovid_counties
+  rows: 3528
+  cols: 8
+  description: county data from Wisconsin DHS
+  type: table

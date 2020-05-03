@@ -1,0 +1,16 @@
+path:
+- data.csv
+- data.rds
+rows: 3528
+cols: 8
+columns:
+  GEO: character
+  NAME: character
+  POSITIVE: integer
+  NEGATIVE: integer
+  DATE: POSIXct
+  OBJECTID: integer
+  GEOID: character
+  DEATHS: integer
+description: county data from Wisconsin DHS
+type: table
