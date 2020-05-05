@@ -1,8 +1,8 @@
 path:
 - data.csv
 - data.rds
-rows: 51
-cols: 101
+rows: 52
+cols: 103
 columns:
   GEO: character
   NAME: character
@@ -21,6 +21,7 @@ columns:
   DTHS_20_29: integer
   DTHS_10_19: integer
   DTHS_0_9: integer
+  DTHS_OTH: integer
   DTHS_MALE: integer
   DTHS_FEM: integer
   DTHS_70_79: integer
@@ -34,6 +35,7 @@ columns:
   POS_20_29: integer
   POS_10_19: integer
   POS_0_9: integer
+  POS_OTH: integer
   POS_MALE: integer
   POS_FEM: integer
   HOSP_UNK: integer
