@@ -1,7 +1,7 @@
 path:
 - data.csv
 - data.rds
-rows: 56
+rows: 57
 cols: 103
 columns:
   GEO: character
@@ -103,9 +103,9 @@ columns:
   POS_HC_Y: integer
   POS_HC_N: integer
   POS_HC_UNK: integer
-  DTH_NEW: character
-  POS_NEW: character
-  NEG_NEW: character
-  TEST_NEW: character
+  DTH_NEW: integer
+  POS_NEW: integer
+  NEG_NEW: integer
+  TEST_NEW: integer
 description: statewide data from Wisconsin DHS
 type: table
