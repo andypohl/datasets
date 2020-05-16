@@ -1,8 +1,8 @@
 path:
 - data.csv
 - data.rds
-rows: 62
-cols: 103
+rows: 63
+cols: 104
 columns:
   GEO: character
   NAME: character
@@ -107,5 +107,6 @@ columns:
   POS_NEW: integer
   NEG_NEW: integer
   TEST_NEW: integer
+  geometry: sfc_POINT
 description: statewide data from Wisconsin DHS
 type: table
