@@ -1,8 +1,8 @@
 path:
 - data.csv
 - data.rds
-rows: 4464
-cols: 8
+rows: 4536
+cols: 9
 columns:
   GEO: character
   NAME: character
@@ -12,5 +12,6 @@ columns:
   OBJECTID: integer
   GEOID: character
   DEATHS: integer
+  geometry: list
 description: county data from Wisconsin DHS
 type: table
