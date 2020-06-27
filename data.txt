@@ -1,6 +1,6 @@
 - path: wiscovid_statewide
   name: wiscovid_statewide
-  rows: 104
+  rows: 105
   cols: 104
   description: statewide data from Wisconsin DHS
   type: table
