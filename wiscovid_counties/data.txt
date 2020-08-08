@@ -1,37 +1,17 @@
 path:
 - data.csv
 - data.rds
-rows: 72
-cols: 29
+rows: 10440
+cols: 9
 columns:
-  OBJECTID: integer
   GEO: character
-  GEOID: character
   NAME: character
-  DATE: POSIXct
   POSITIVE: integer
-  POS_NEW: integer
   NEGATIVE: integer
-  NEG_NEW: integer
+  LoadDttm: character
+  OBJECTID: integer
+  GEOID: character
   DEATHS: integer
-  DTH_NEW: integer
-  TEST_NEW: integer
-  HOSP_YES: integer
-  HOSP_NO: integer
-  HOSP_UNK: integer
-  POP: integer
-  POP_MOE: integer
-  PCT_POP_65: numeric
-  PCT_SMK: numeric
-  PCT_COPD: numeric
-  PCT_CVD: numeric
-  PCT_DIAB: numeric
-  POP_65_WI: numeric
-  SMK_WI: numeric
-  COPD_WI: numeric
-  CVD_WI: numeric
-  DIAB_WI: numeric
-  Shape__Area: numeric
-  Shape__Length: numeric
+  DATE: POSIXct
 description: county data from Wisconsin DHS
 type: table
