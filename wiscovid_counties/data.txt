@@ -1,10 +1,10 @@
 path:
 - data.csv
 - data.rds
-rows: 10646
+rows: 10590
 cols: 103
 columns:
-  DATE: POSIXct
+  DATE: Date
   OBJECTID: integer
   GEOID: character
   GEO: character
