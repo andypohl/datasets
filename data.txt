@@ -16,3 +16,7 @@
   cols: 103
   description: statewide data from Wisconsin DHS
   type: table
+- path: wiscovid_info
+  name: wiscovid_info
+  description: info about updates
+  type: default
