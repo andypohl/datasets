@@ -12,7 +12,7 @@
   type: table
 - path: wiscovid_table
   name: wiscovid_table
-  rows: 215846
+  rows: 217321
   cols: 103
   description: statewide data from Wisconsin DHS
   type: table
