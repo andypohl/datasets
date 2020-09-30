@@ -6,7 +6,7 @@
   type: table
 - path: wiscovid_counties
   name: wiscovid_counties
-  rows: 7236
+  rows: 14400
   cols: 103
   description: county data from Wisconsin DHS
   type: table
