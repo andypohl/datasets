@@ -1,7 +1,7 @@
 path:
-- https://github.com/andypohl/datasets/releases/download/wiscovid_table-f2e373c/data.csv
+- https://github.com/andypohl/datasets/releases/download/wiscovid_table-87d32b8/data.csv
 - data.rds
-rows: 255671
+rows: 111000
 cols: 103
 columns:
   DATE: POSIXct
