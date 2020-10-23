@@ -1,16 +1,20 @@
 path:
 - data.csv
 - data.rds
-rows: 207
+rows: 120
 cols: 103
 columns:
   DATE: Date
-  OBJECTID: integer
   GEOID: character
   GEO: character
   NAME: character
-  NEGATIVE: integer
   POSITIVE: integer
+  POS_NEW: integer
+  NEGATIVE: integer
+  NEG_NEW: integer
+  DEATHS: integer
+  DTH_NEW: integer
+  TEST_NEW: integer
   HOSP_YES: integer
   HOSP_NO: integer
   HOSP_UNK: integer
@@ -27,7 +31,6 @@ columns:
   POS_70_79: integer
   POS_80_89: integer
   POS_90: integer
-  DEATHS: integer
   DTHS_FEM: integer
   DTHS_MALE: integer
   DTHS_OTH: integer
@@ -41,6 +44,27 @@ columns:
   DTHS_70_79: integer
   DTHS_80_89: integer
   DTHS_90: integer
+  POS_AIAN: integer
+  POS_ASN: integer
+  POS_BLK: integer
+  POS_WHT: integer
+  POS_MLTOTH: integer
+  POS_UNK: integer
+  POS_E_HSP: integer
+  POS_E_NHSP: integer
+  POS_E_UNK: integer
+  DTH_AIAN: integer
+  DTH_ASN: integer
+  DTH_BLK: integer
+  DTH_WHT: integer
+  DTH_MLTOTH: integer
+  DTH_UNK: integer
+  DTH_E_HSP: integer
+  DTH_E_NHSP: integer
+  DTH_E_UNK: integer
+  POS_HC_Y: integer
+  POS_HC_N: integer
+  POS_HC_UNK: integer
   IP_Y_0_9: integer
   IP_Y_10_19: integer
   IP_Y_20_29: integer
@@ -82,30 +106,6 @@ columns:
   IC_Y_70_79: integer
   IC_Y_80_89: integer
   IC_Y_90: integer
-  POS_AIAN: integer
-  POS_ASN: integer
-  POS_BLK: integer
-  POS_WHT: integer
-  POS_MLTOTH: integer
-  POS_UNK: integer
-  POS_E_HSP: integer
-  POS_E_NHSP: integer
-  POS_E_UNK: integer
-  DTH_AIAN: integer
-  DTH_ASN: integer
-  DTH_BLK: integer
-  DTH_WHT: integer
-  DTH_MLTOTH: integer
-  DTH_UNK: integer
-  DTH_E_HSP: integer
-  DTH_E_NHSP: integer
-  DTH_E_UNK: integer
-  POS_HC_Y: integer
-  POS_HC_N: integer
-  POS_HC_UNK: integer
-  DTH_NEW: integer
-  POS_NEW: integer
-  NEG_NEW: integer
-  TEST_NEW: integer
+  OBJECTID: integer
 description: statewide data from Wisconsin DHS
 type: table
