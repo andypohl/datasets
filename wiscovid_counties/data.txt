@@ -1,8 +1,8 @@
 path:
 - data.csv
 - data.rds
-rows: 8640
-cols: 103
+rows: 1087
+cols: 107
 columns:
   DATE: Date
   GEOID: character
@@ -10,11 +10,15 @@ columns:
   NAME: character
   POSITIVE: integer
   POS_NEW: integer
+  POS_7DAYAVG: numeric
   NEGATIVE: integer
   NEG_NEW: integer
+  NEG_7DAYAVG: numeric
   DEATHS: integer
   DTH_NEW: integer
+  DTH_7DAYAVG: numeric
   TEST_NEW: integer
+  TEST_7DAYAVG: numeric
   HOSP_YES: integer
   HOSP_NO: integer
   HOSP_UNK: integer
