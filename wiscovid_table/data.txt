@@ -1,5 +1,5 @@
 path:
-- https://github.com/andypohl/datasets/releases/download/wiscovid_table-dde0a8e/data.csv
+- https://github.com/andypohl/datasets/releases/download/wiscovid_table-ce7a4f6/data.csv
 - data.rds
 rows: 177000
 cols: 107
